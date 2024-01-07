@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+     <a href="Registration.php">Register here</a>  <br>
+
+ 
+  <title></title>
+  </head>
+    <script>
+    var myVar = setInterval(myTimer, 4000);
+    var i;
+    i=1;
+    var pinakas = new Array (14);
+    pinakas[0] = "myimage0.gif"; 
+    pinakas[1] = "myimage1.gif";
+    pinakas[2] = "myimage2.gif";
+    pinakas[3] = "myimage3.gif";
+    pinakas[4] = "myimage4.gif";
+    pinakas[5] = "myimage5.gif";
+    pinakas[6] = "myimage6.gif";
+    pinakas[7] = "myimage7.gif";
+    pinakas[8] = "myimage8.gif";
+    pinakas[9] = "myimage9.gif";
+    pinakas[10] = "myimage10.gif";
+    pinakas[11] = "myimage11.gif";
+    pinakas[12] = "myimage12.gif";
+    pinakas[13] = "myimage13.gif";
+    pinakas[14] = "myimage14.gif";
+
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    document.getElementById("eikona").src = pinakas[i];
+    i++;
+    if(i>13){
+      i=0;
+    }
+    
+    
+}
+  </script>
+
+  
+  
+   <body>
+     <img src="myimage0.gif" alt="Εισαγωγή εικόνας" id='eikona'>
+      <p id="demo"></p>
+      * <a href="Informations.html">Πάτρα</a> <br>
+       *  <a href="Informations.html">Αθήνα</a>   <br>
+       *   <a href="Informations.html">Θεσσαλονικη</a> <br>
+        *  <a href="Informations.html">Καστοριά</a>    <br>       
+        *   <a href="Informations.html">Γαλαξίδι</a>    <br>
+         *  <a href="Informations.html">Θεσσαλονικη</a>  <br>
+          *  <a href="Informations.html">Πάργα</a>     <br>
+           * <a href="Informations.html">Άγιος Νικόλαος</a>  <br>
+            *<a href="Informations.html">Ναύπλιο</a>     <br>
+            *<a href="Informations.html">Καλαμπάκα</a>    <br>
+            
+           <fieldset> 
+            <strong> Τηλεφωνο Επικοινωνιας : 210-4589012 </strong>    <br>
+            <strong>Ωραριο λειτουργειας Γραφειου:Δευτερα-Παρασκευη (8:00-18:00)/Σαββατο 10:00-15:00 </strong> <br>
+            <strong>Διευθυνση:Βασ.Σοφιας 60 </strong>
+            </fieldset> <br>
+            
+            
+            <strong><ins>Για περαιτερω πληροφοριες και ερωτησεις πατηστε εδω.</ins></strong> <br>
+            <a href="Community.html">Μεταβαση στη φορμα επικοινωνιας</a> <br>
+            
+  
+
+  </body>
+</html>
